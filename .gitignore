@@ -5,4 +5,5 @@ local.md
 *.env.*
 .env
 **/.env
+**/seed*.sql
 
