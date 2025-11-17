@@ -7,4 +7,7 @@ local.md
 **/.env
 **/seed*.sql
 supabase/seed_production.sql
+supabase/seed.sql
+supabase/seed_local.sql
+
 

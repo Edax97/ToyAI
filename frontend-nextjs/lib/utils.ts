@@ -51,7 +51,7 @@ export const isDefaultPersonality = (personality: IPersonality) => {
 
 export const getBaseUrl = () => {
     return process.env.NEXT_PUBLIC_VERCEL_ENV === "production"
-        ? "https://elatoai.com"
+        ? process.env.NEXT_PUBLIC_HOST
         : "http://localhost:3000";
 };
 
